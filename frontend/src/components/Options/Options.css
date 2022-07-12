@@ -1,0 +1,45 @@
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+  }
+  
+  .option {
+    border-radius: 12px;
+    padding: 8px;
+    border: 1px solid #c5e7e9;
+    color: #be0707;
+    font-size: 0.8rem;
+    margin: 4px 4px;
+    background: transparent;
+    transition-duration: 0.4s;
+  }
+
+  .btn {
+    background-color: #a11d24;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 2px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+    
+  }
+
+  .btn:hover{
+    background-color: #f1f1f1;
+    border: 2px solid #a11d24;
+    color: #a11d24;
+    font-weight: 300;
+  }
+
+
+  *{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+  }
