@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input</title>
+    <style>
+        .center-form{
+            padding-top: 10%;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="center-form">
+<form method="post" action="{{ url_for('predict')}}">
+    <label for="age">Age:</label>
+    <input type="text" name="age" id="age" placeholder="Enter your age"><br><br>
+
+    <label for="income">Income:</label>
+    <input type="text" name="income" id="income" placeholder="Enter your income"><br><br>
+
+    <label for="duration">Duration</label>
+    <input type="text" name="duration" id="duration" placeholder="Enter in years"><br><br>
+
+    <label for="risk">Risk:</label>
+    <input type="text" name="risk" id="risk" placeholder="Enter from 1-10"><br><br>
+
+    <label for="plan">Type of plan:</label>
+    <select name="plan" id="plan">
+        <option value="General">General</option>
+        <option value="Retirement">Retirement</option>
+        <option value="Children">Children</option>
+        <option value="Vacation">Vacation</option>
+    </select><br><br>
+
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select><br><br>
+
+    <input type="submit">
+</form>
+        </div>
+    </center>
+</body>
+</html>
